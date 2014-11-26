@@ -1,0 +1,21 @@
+{
+  "name": "Slaven Sakačić",
+  "description": "Ovo je lagano",
+  "version": "1.0",
+  "keywords": [
+    "interactive, posao, mojposao"
+  ],
+  "require": {
+    "components/css-reset": "dev-master"
+  },
+  "maintainers": [
+    {
+      "name": "Slaven Sakačić",
+      "email": "slavensakacic@gmail.com",
+      "web": "slaven-sakacic.from.hr"
+    }
+  ],
+  "dependencies": {
+    "": ""
+  }
+}

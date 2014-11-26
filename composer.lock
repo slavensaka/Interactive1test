@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "50cb9478ac1c761c9cd29c2dc35eb5f3",
+    "packages": [
+        {
+            "name": "components/css-reset",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivangabriele/CSS-Reset.git",
+                "reference": "faac7f070d3ebc371326e0415e0f710d04ed981c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivangabriele/CSS-Reset/zipball/faac7f070d3ebc371326e0415e0f710d04ed981c",
+                "reference": "faac7f070d3ebc371326e0415e0f710d04ed981c",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Gabriele",
+                    "email": "ivan.gabriele@gmail.com",
+                    "homepage": "http://www.ivangabriele.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSS Resetter Library",
+            "homepage": "http://www.ivangabriele.com/css-reset/",
+            "keywords": [
+                "browser",
+                "css",
+                "library",
+                "reset"
+            ],
+            "time": "2014-11-23 01:54:33"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "components/css-reset": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

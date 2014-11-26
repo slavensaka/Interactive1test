@@ -1,0 +1,172 @@
+
+/*
+#plavi_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+    width: 810px;
+    height: 36px;
+    background: #fff;
+    position: relative;
+    z-index: 500;
+    font-family: arial, verdana, sans-serif;
+}*/
+
+#plavi_menu{
+    border-bottom: 1px solid #05345f;
+
+}
+#plavi_menu li.top {
+    display: inline;
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#plavi_menu li a.top_link {
+    display: block;
+    float: left;
+    height: 47px;
+    line-height: 45px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 0 12px;
+    cursor: pointer;
+    width:168px; /*168*/
+
+    background: url(../img/blana1.png);
+}
+
+#plavi_menu li a.top_link span {
+    float: left;
+    display: block;
+   /*padding: 0px 4px 0px 12px;*/
+    /*height: 336px;*/
+
+
+}
+
+#plavi_menu li a.top_link span.down {
+    float: left;
+    display: inline;
+    padding: 0 -24px 0 12px;
+    height: 36px;
+    
+}
+
+#plavi_menu li a.top_link:hover {
+    color: #fff;
+   background: url(../img/blana.png) no-repeat right top;
+
+}
+
+#plavi_menu li a.top_link:hover span {
+  
+}
+
+#plavi_menu li a.top_link:hover span.down {
+    
+}
+
+#plavi_menu li:hover > a.top_link {
+    color: #fff;
+    background: url(../img/blana.png) no-repeat right top;
+}
+
+#plavi_menu li:hover > a.top_link span {
+   
+}
+
+#plavi_menu li:hover > a.top_link span.down {
+  
+}
+
+/* Default list styling */
+
+#plavi_menu li:hover {
+    position: relative;
+    z-index: 200;
+
+}
+
+/* keep the 'next' level invisible by placing it off screen. */
+
+
+#plavi_menu ul, 
+#plavi_menu li:hover ul ul,
+#plavi_menu li:hover ul li:hover ul ul,
+#plavi_menu li:hover ul li:hover ul li:hover ul ul,
+#plavi_menu li:hover ul li:hover ul li:hover ul li:hover ul ul {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#plavi_menu li:hover ul.sub {
+    left: 0;
+    top: 60px;
+    background: #fff;
+    padding: 3px;
+    white-space: nowrap;
+    width: 90px;
+    height: auto;
+    z-index: 300;
+}
+
+#plavi_menu li:hover ul.sub li {
+    display: block;
+    height: 20px;
+    position: relative;
+    float: left;
+    width: 90px;
+    font-weight: normal;
+}
+
+#plavi_menu li:hover ul.sub li a {
+    display: block;
+    font-size: 11px;
+    height: 20px;
+    width: 90px;
+    line-height: 20px;
+    text-indent: -32px;
+    color: #1980E1;
+    text-decoration: none;
+}
+
+#plavi_menu li:hover ul.sub li a:hover {
+    background: #3a93d2;
+    color: #fff;
+}
+
+#plavi_menu li:hover ul.sub li a.fly:hover {
+   
+    color: #fff;
+}
+
+#plavi_menu li:hover ul li:hover > a.fly {
+   background-color: red;
+    color: #fff;
+}
+
+#plavi_menu li:hover ul li:hover ul,
+#plavi_menu li:hover ul li:hover ul li:hover ul,
+#plavi_menu li:hover ul li:hover ul li:hover ul li:hover ul,
+#plavi_menu li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul {
+    left: 90px;
+    top: -4px;
+    background: #fff;
+    padding: 3px;
+    border: 1px solid #3a93d2;
+    white-space: nowrap;
+    width: 90px;
+    z-index: 400;
+    height: auto;
+}
