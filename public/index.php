@@ -11,8 +11,12 @@
 	<link rel="stylesheet" type="text/css" href="./css/text.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/960_12_col.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/pro_drop_1.css" />
-
-	
+	<script src="./js/jquery.js"></script> 	<script src="./js/jquery.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<!-- 
+	<link href="./js/jquery-ui.css" rel="stylesheet">
+        <script src="./js/jquery-ui.js"></script> -->
+        <script src="./js/jquery.collapsible.js"></script>
 		
 	</link>
 </head>
@@ -65,91 +69,268 @@
 </ul>
 
 
-<div class="main">
+<div class="main1" id="main1">
 
 	<div class="grid_4" >
 
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
+		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Office Manager/Marketing Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Associate</span>
+		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Chief Operating Officer</span>
+		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Chief Operating Officer</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div><br class="clear" />
 
 </div>
 
-<div class="main">
+<div class="main2" id="main2">
 
 	<div class="grid_4" >
 
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
+		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Office Manager/Marketing Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Associate</span>
+		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Chief Operating Officer</span>
+		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Chief Operating Officer</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div><br class="clear" />
 
 </div>
 
-<div class="main">
+<div class="main3" id="main3">
 
 	<div class="grid_4" >
 
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
+		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Office Manager/Marketing Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Associate</span>
+		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Chief Operating Officer</span>
+		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Chief Operating Officer</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div><br class="clear" />
 
 </div>
 
-<div class="main">
+<div class="main4" id="main4">
 
 	<div class="grid_4" >
 
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
+		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Office Manager/Marketing Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Associate</span>
+		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Associate</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div>
 	<div class="grid_4">
-		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović</a><br/>
-		<span class="job">Chief Operating Officer</span>
+		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/>
+		<span class="job">Chief Operating Officer</span></a>
+		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
+		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
+		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		</p>
 	</div><br class="clear" />
 
 </div>
-
 <br class="clear" />
+
+
+
+ <script>
+
+
+
+	
+$("div.grid_4 a").click(function() {
+
+    // $("p").slideToggle("slow");
+    var contentPanelId = jQuery(this).attr("id");
+    var str = $("p.para").text();
+    var ime = $(this).text();
+    var href = $(this).attr('href');
+    var main = $(this).parent().parent().attr("id");
+    
+
+if(main == 'main1')
+{
+	var div = $('<div class="created" id="created"></div>').text("Text.");
+	$("div.main1").append([ ime, '<br>',str]);
+$('div.created').css("border-top", "black solid 1px");
+
+
+} else if(main == 'main2') {
+var div = $('<div class="created"></div>').text("Text.");
+$("div.main2").append(div);
+
+} else if(main == 'main3') {
+var div = $('<div class="created"></div>').text("Text.");
+$("div.main3").append(div);
+} else  {
+var div = $('<div class="created"></div>').text("Text.");
+$("div.main4").append(div);
+}
+
+
+
+
+     // $("div.main1").append(main);
+    
+    
+
+ });
+
+    //$(".created").slideToggle("slow");
+
+
+// $(".grid_4").click(function() {
+// 	var txt1 = "<p>Text.</p>";              // Create text with HTML
+//     var txt2 = $("<p></p>").text("Text.");  // Create text with jQuery
+//     var txt3 = document.createElement("p");
+//     txt3.innerHTML = "Text.";               // Create text with DOM
+//     $("body").append(txt1, txt2, txt3);  
+// });
+
+
+// function addcommentdiv () {
+//     var NewContent = '<div class="detalji">Lorem</div>'
+//     $('a').click(function () {
+//         var $this = $(this), $reply = $this.next('.reply');
+
+        
+//             $(NewContent).insertAfter($this);
+       
+//     });
+// };
+// addcommentdiv();
+
+
+
+// $(document).ready(function() {
+//     $("a").click(function(event) {
+//         var contentPanelId = jQuery(this).attr("id");
+        //alert(contentPanelId);
+        
+//     });
+// });
+
+
+// $(function(){
+//   $('.name').click(function(){
+//   $(this).text();
+//   $(this).attr('href');
+//   });
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     $( document ).ready(function() {
+//        $(".grid_4").click(function(){
+
+//             $grid = $(this);
+// 	$content = $grid.next();
+// 	$(".new").slideToggle(500, function(){
+// 		$grid.text(function(){
+// return $content.is(":visible") ? "Collapse" : "Expand";
+// 		});
+// 	});
+//         });
+//     });
+ </script>
+
 
 
 <div class="country_help">
@@ -157,14 +338,8 @@
     the appropriate phone number: <!--<select id="sel"></select>  -->
 
 
-<select class="selector" id="sel">
+<select id="sel" class="selector" ></select>
 
-	<!-- <option>Slower</option>
-	<option>Slow</option>
-	<option selected="selected">Medium</option>
-	<option>Fast</option>
-	 <option>Faster</option>-->
-</select>
 
 
     Or alternatively:  <button class="btn">EMAIL US</button>
@@ -198,27 +373,10 @@
 
 </div><!-- /container -->
 		<script src="./js/glavni.js"></script>
-		<link href="./js/jquery-ui.css" rel="stylesheet">
-		<script src="./js/jquery.js"></script>
-        <script src="./js/jquery-ui.js"></script>
+		
+	
+		 
+ 
 
-<script>
-$( "#button" ).button();
-$( "#radioset" ).buttonset();
-
-$( "#menu" ).menu();
-
-$( "#selectmenu" ).selectmenu();
-
-// Hover states on the static widgets
-$( "#dialog-link, #icons li" ).hover(
-	function() {
-		$( this ).addClass( "ui-state-hover" );
-	},
-	function() {
-		$( this ).removeClass( "ui-state-hover" );
-	}
-);
-</script>
 </body>
 </html>
