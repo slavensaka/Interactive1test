@@ -74,32 +74,23 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Office Manager/Marketing Associate</span></a>
-		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		Ivan Iva<br/></a>
+		<span class="job">Office Manager/Marketing Associate</span>
+		<p class="para">broj 1 lik
 		</p>
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Associate</span></a>
-		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		Ivan Ivanov<br/></a>
+		<span class="job">Associate</span>
+		<p class="para">Broj 2 lik
 		</p>
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Chief Operating Officer</span></a>
-		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		Ivan Ivanović<br/></a>
+		<span class="job">Chief Operating Officer</span>
+		<p class="para">broj 3 lik
 		</p>
 	</div><br class="clear" />
 
@@ -110,8 +101,8 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Office Manager/Marketing Associate</span></a>
+		Ivan Iva<br/></a>
+		<span class="job">Office Manager/Marketing Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -120,8 +111,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Associate</span></a>
+		Ivan Ivanov<br/></a>
+		<span class="job">Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -130,8 +121,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Chief Operating Officer</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Chief Operating Officer</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -146,8 +137,8 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Office Manager/Marketing Associate</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Office Manager/Marketing Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -156,8 +147,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Associate</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -166,8 +157,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Chief Operating Officer</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Chief Operating Officer</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -182,8 +173,8 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba1"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Office Manager/Marketing Associate</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Office Manager/Marketing Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -192,8 +183,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba2"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Associate</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Associate</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -202,8 +193,8 @@
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba3"><img src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/>
-		<span class="job">Chief Operating Officer</span></a>
+		Ivan Ivanović<br/></a>
+		<span class="job">Chief Operating Officer</span>
 		<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
 		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
@@ -218,48 +209,70 @@
 
  <script>
 
-
-
-	
-$("div.grid_4 a").click(function() {
-
+$("div.grid_4 a").on("click", function() {
+	  $("#holder").slideToggle("slow");
     // $("p").slideToggle("slow");
-    var contentPanelId = jQuery(this).attr("id");
-    var str = $("p.para").text();
+    var jobtitle = $(this).parent().children(' span').html();
+    var id_diva = jQuery(this).attr("id");
+    var paragraph = $(this).parent().children(' p.para').html();
+    //var str = $("p.para").text();
+    //var str= $(this).parent().children('a.name').html();
     var ime = $(this).text();
     var href = $(this).attr('href');
     var main = $(this).parent().parent().attr("id");
-    
+    $("#holder").empty()
+    if (main == 'main1') {
 
-if(main == 'main1')
-{
-	var div = $('<div class="created" id="created"></div>').text("Text.");
-	$("div.main1").append([ ime, '<br>',str]);
-$('div.created').css("border-top", "black solid 1px");
+        var div = $('<div class="created" id="created"></div>').text(
+            " ");
 
-
-} else if(main == 'main2') {
-var div = $('<div class="created"></div>').text("Text.");
-$("div.main2").append(div);
-
-} else if(main == 'main3') {
-var div = $('<div class="created"></div>').text("Text.");
-$("div.main3").append(div);
-} else  {
-var div = $('<div class="created"></div>').text("Text.");
-$("div.main4").append(div);
-}
+        var button = $(
+            '<button id="button" type="button">Click Me!</button>');
+        jQuery('<div/>', {
+            id: 'holder',
+        }).appendTo('div.main1');
 
 
+        $("#holder").append([div, button, '<br/>', ime, '<br/>',
+            jobtitle, '<br>', paragraph
+        ]);
+
+             $("#holder").fadeIn( "slow" );
+		
+        // holder.append([button,div,ime,'<br/>',jobtitle,'<br>',paragraph])
+        // console.log(novi);
+        
+
+        $('div.created').css("border-top", "black solid 1px ");
+        //Button to close click event
+           ;
+        $("#button").on("click", function() {
+            $("#holder").fadeOut("slow");
+             
+        });
+        $("#foo").trigger("click");
 
 
-     // $("div.main1").append(main);
-    
-    
+ 
 
- });
+    } else if (main == 'main2') {
+        var div = $('<div class="created"></div>').text("Text.");
+        $("div.main2").append(div);
+    } else if (main == 'main3') {
+        var div = $('<div class="created"></div>').text("Text.");
+        $("div.main3").append(div);
+    } else {
+        var div = $('<div class="created"></div>').text("Text.");
+        $("div.main4").append(div);
+    }
+});
 
-    //$(".created").slideToggle("slow");
+// $("div.main1").append(main);
+
+
+
+
+//$(".created").slideToggle("slow");
 
 
 // $(".grid_4").click(function() {
@@ -276,9 +289,9 @@ $("div.main4").append(div);
 //     $('a').click(function () {
 //         var $this = $(this), $reply = $this.next('.reply');
 
-        
+
 //             $(NewContent).insertAfter($this);
-       
+
 //     });
 // };
 // addcommentdiv();
@@ -288,8 +301,8 @@ $("div.main4").append(div);
 // $(document).ready(function() {
 //     $("a").click(function(event) {
 //         var contentPanelId = jQuery(this).attr("id");
-        //alert(contentPanelId);
-        
+//alert(contentPanelId);
+
 //     });
 // });
 
@@ -300,19 +313,6 @@ $("div.main4").append(div);
 //   $(this).attr('href');
 //   });
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
