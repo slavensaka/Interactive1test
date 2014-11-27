@@ -59,7 +59,7 @@
 
 #plavi_menu li a.top_link:hover {
     color: #fff;
-   background: url(../img/blana.png) no-repeat right top;
+   background: url(../img/blana3.png) no-repeat right top;
 
 }
 
@@ -73,7 +73,7 @@
 
 #plavi_menu li:hover > a.top_link {
     color: #fff;
-    background: url(../img/blana.png) no-repeat right top;
+    background: url(../img/blana3.png) no-repeat right top;
 }
 
 #plavi_menu li:hover > a.top_link span {

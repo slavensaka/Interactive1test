@@ -12,8 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/960_12_col.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/pro_drop_1.css" />
 
-	<script src="./js/stuHover.js" type="text/javascript"></script>
-
+	
 		
 	</link>
 </head>
@@ -70,18 +69,18 @@
 
 	<div class="grid_4" >
 
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović<br/></a>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/></a>
 		<span class="job">Office Manager/Marketing Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Chief Operating Officer</span>
 	</div><br class="clear" />
 
@@ -91,18 +90,18 @@
 
 	<div class="grid_4" >
 
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović<br/></a>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/></a>
 		<span class="job">Office Manager/Marketing Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Chief Operating Officer</span>
 	</div><br class="clear" />
 
@@ -112,18 +111,18 @@
 
 	<div class="grid_4" >
 
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović<br/></a>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/></a>
 		<span class="job">Office Manager/Marketing Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Chief Operating Officer</span>
 	</div><br class="clear" />
 
@@ -133,18 +132,18 @@
 
 	<div class="grid_4" >
 
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović<br/></a>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović<br/></a>
 		<span class="job">Office Manager/Marketing Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Associate</span>
 	</div>
 	<div class="grid_4">
-		<img src="./img/selected_person.png" alt="">
-		<a href="#"class="name">Ivan Ivanović</a><br/>
+		<a href="#"class="name"><img src="./img/selected_person.png" alt="">
+		Ivan Ivanović</a><br/>
 		<span class="job">Chief Operating Officer</span>
 	</div><br class="clear" />
 
@@ -153,24 +152,26 @@
 <br class="clear" />
 
 
-<div>
+<div class="country_help">
 <p>How can we help you? Please select an office to find 
     the appropriate phone number: <!--<select id="sel"></select>  -->
 
 
-<select id="selectmenu">
-	<option>Slower</option>
+<select class="selector" id="sel">
+
+	<!-- <option>Slower</option>
 	<option>Slow</option>
 	<option selected="selected">Medium</option>
 	<option>Fast</option>
-	<option>Faster</option>
+	 <option>Faster</option>-->
 </select>
 
 
-    Or alternatively:  <button>EMAIL US</button>
+    Or alternatively:  <button class="btn">EMAIL US</button>
 </p>
-</div>
-<p class="territory"> <span>ASIA NORTH AMERICA EUROPE<span></p>
+</div> <br class="clear" />
+
+<p class="territory"><span>ASIA NORTH AMERICA EUROPE<span></p>
 
 
 
@@ -183,7 +184,7 @@
 	<li class="maki"><a href="#">CAREERS</a></li>
 	<li><span class="connect">CONNECT WITH US:
 		<a href="#" title="Linkedin">
-			<img src="img/linkedin.png" alt="LinkedIn">  
+			<img class="linkedin" src="img/linkedin.png" alt="LinkedIn">  
 				LINKEDIN
 		</a>
 		</span>

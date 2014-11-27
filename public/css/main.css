@@ -98,6 +98,10 @@ div.nav nav.navigacija  ul {
  	padding-bottom: 17px;
  	margin-bottom: 50px;
 }
+
+img.linkedin{
+	margin-bottom: 5px;
+}
 /* ==========================================================================
    =footer
    ========================================================================== */
@@ -137,3 +141,69 @@ footer ul li a:after {
 	
 		
 }
+/* ==========================================================================
+   =select_country
+   ========================================================================== */
+select{
+	
+}
+
+
+select.selector{
+
+}
+
+
+
+div.country_help {
+	 border: 2px solid #a1a1a1;
+    padding: 20px 10px 0 20px ; 
+    background: #e7f2fc;
+    font-size: 14px;
+    color:#05345f;
+}
+
+/* ==========================================================================
+   =button
+   ========================================================================== */
+.btn{
+
+   background: #1880e1;
+   width: 120px;
+   padding: 10px 20px;
+ 
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.btn:hover {
+  
+   background: #3192D2;
+   color: white;
+   }
+.btn:active {
+   
+   background: #3192D2;
+   }
+
+p.territory {
+	text-align: center;
+	word-spacing: 18px;
+	font-weight: normal;
+}
+
+
+.selector{
+	border:none;
+ background-color: #e7f2fc;
+ color:#1880e1;
+ padding-left: 30px;
+}
+
+.selector option:first-child{
+display:none;
+
+
+}
+
