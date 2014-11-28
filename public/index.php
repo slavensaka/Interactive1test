@@ -204,10 +204,12 @@
         $("#holder").remove();
         $("#paramore").remove();
 
-        // BugFix za Firefox. IE i Chrome definiraju e globalno, Firefox ne.
+       // BugFix za Firefox. IE i Chrome definiraju e globalno, Firefox ne.
         if (!e) {
-            var target = $(event.target);
+           var target = $(e.target);
         }
+        var target = $(e.target);
+
 /* ============================================================================
  nakon klika na sliku ili link, svi svi ostali članovi tima postanu prozirniji
 ============================================================================ */
