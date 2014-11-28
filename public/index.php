@@ -22,7 +22,7 @@
 	</link>
 </head>
 <body>
-
+<?php require("xml_unos.php"); ?>
 <div class="container_12 ">
 	<header id="logo" class="logo">
 		<h1><a href="#">Logo</a></h1>
@@ -221,7 +221,7 @@
 
 
  <script>
-
+$(document).ready(function(){	
 $("div.grid_4 a").on("click", function() {
 
 		select = document.getElementById('osoba');
@@ -311,16 +311,16 @@ for(i=0;i<($("#osoba img").length);i++)
         $("#paramore").append([paragraph, button]);
   			
              $("#paramore")
-             .animate({opacity:1}, 50)
-             .css('visibility','invisible')
+             .animate({opacity:1}, 150)
+             
              .hide()
-             .fadeIn( 1000 );
+             .fadeIn( 600 );
 
              $("#holder")
-             .animate({opacity:1}, 50)
-             .css('visibility','invisible')
+             .animate({opacity:1}, 150)
+            
              .hide()
-             .fadeIn( 1000 );
+             .fadeIn( 600 );
 		
         // holder.append([button,div,ime,'<br/>',jobtitle,'<br>',paragraph])
         // console.log(novi);
@@ -331,24 +331,19 @@ for(i=0;i<($("#osoba img").length);i++)
            
         $("#button").on("click", function() {
 
-        	$("#holder").hide();
-            $("#paramore").hide();
-            $("#holder").fadeOut("slow");
-            $("#paramore").fadeOut("slow");
+// Ne treba jer se remove() funkcija primjenjuje
+// $("#holder")fadeOut("slow"); 
+// $("#paramore")fadeOut("slow");
+
             $("#holder").remove();
             $("#paramore").remove();
             $("#osoba img").css('opacity', '1');
         });
         $("#foo").trigger("click");
-
-
- 
-
-
    // e.preventDefault();
     return false;
 });
-
+});
 // $("div.main1").append(main);
 
 
