@@ -102,6 +102,13 @@ div.nav nav.navigacija  ul {
 img.linkedin{
 	margin-bottom: 5px;
 }
+
+div.grid_4 span.job {
+	color:#1880E1;
+}
+
+
+
 /* ==========================================================================
    =footer
    ========================================================================== */
@@ -206,4 +213,37 @@ display:none;
 
 
 }
+/* ==========================================================================
+   =Javascript created
+   ========================================================================== */
 
+div#paramore {
+	 position:relative;
+    left: 490px;
+    bottom:60px;
+    width:468px;
+}
+
+div.created {
+	margin-left: 0;
+	
+}
+
+div#holder{
+	color:#1880E1;
+		margin-left:  244px;
+    margin-bottom: 24px;
+    text-decoration: underline;
+}
+
+div#paramore button#button {
+	color:#1880E1;
+	border:0;
+	background: none;
+	text-decoration: underline;
+	position: absolute;
+    bottom: 0;
+    left: -254px;
+
+
+}

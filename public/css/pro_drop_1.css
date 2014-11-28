@@ -16,12 +16,18 @@
 #plavi_menu{
     border-bottom: 1px solid #05345f;
 
+
 }
 #plavi_menu li.top {
     display: inline;
     float: left;
     margin-left: 0px;
     margin-right: 10px;
+      position:relative;
+    top:2px;
+      
+
+
 }
 
 #plavi_menu li a.top_link {
@@ -59,7 +65,8 @@
 
 #plavi_menu li a.top_link:hover {
     color: #fff;
-   background: url(../img/blana3.png) no-repeat right top;
+
+   background: url(../img/bana3.png) no-repeat right top;
 
 }
 
@@ -73,7 +80,7 @@
 
 #plavi_menu li:hover > a.top_link {
     color: #fff;
-    background: url(../img/blana3.png) no-repeat right top;
+    background: url(../img/blana3.png) no-repeat  right top;
 }
 
 #plavi_menu li:hover > a.top_link span {
@@ -112,7 +119,7 @@
 
 #plavi_menu li:hover ul.sub {
     left: 0;
-    top: 60px;
+    top: 45px;
     background: #fff;
     padding: 3px;
     white-space: nowrap;
@@ -142,8 +149,8 @@
 }
 
 #plavi_menu li:hover ul.sub li a:hover {
-    background: #3a93d2;
-    color: #fff;
+    
+    color: red;
 }
 
 #plavi_menu li:hover ul.sub li a.fly:hover {
