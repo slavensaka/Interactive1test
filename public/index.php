@@ -4,22 +4,18 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Interactive</title>
-	<!-- <link rel="stylesheet" type="text/css" href="..\vendor\components\css-reset\reset.css"> -->
+	<title>Interactive1</title>
+	
 	<link rel="stylesheet" type="text/css" href="./css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/text.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/960_12_col.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/pro_drop_1.css" />
 	<script src="./js/jquery.js"></script> 	<script src="./js/jquery.js"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-<!-- 
-	<link href="./js/jquery-ui.css" rel="stylesheet">
-        <script src="./js/jquery-ui.js"></script> -->
-        <script src="./js/jquery.collapsible.js"></script>
-        <script src="./js/stuHover.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+      
 		
-	</link>
+	
 </head>
 <body>
 <?php require("xml_unos.php"); ?>
@@ -75,35 +71,29 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba"><img id="osoba1" src="./img/selected_person.png" alt="">
-		Ivan Iva<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
-		<p hidden class="para">broj 1 lik 
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, est architecto, provident id delectus dicta corrupti quis eos reiciendis ipsa quos totam, amet ea non ullam? Eum quod sed inventore.
+		<?php echo $feed[0]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[0]['jtitle']; ?></span>
+		<p hidden class="para">
+		 	<?php echo $feed[0]['desc']; ?>
+	   </p>
 			 
 
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba2" id="osoba1"src="./img/selected_person.png" alt="">
-		Ivan Ivanov<br/></a>
-		<span class="job">Associate</span>
-		<p  hidden class="para">Broj 2 lik
-		m dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
+		<?php echo $feed[1]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[1]['jtitle']; ?></span>
+		<p  hidden class="para">
+			<?php echo $feed[1]['desc']; ?>
 
 		</p>
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba3"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Chief Operating Officer</span>
-		<p hidden class="para">broj 3 lik
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, est architecto, provident id delectus dicta corrupti quis eos reiciendis ipsa quos totam, amet ea non ullam? Eum quod sed inventore.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat esse molestiae nulla expedita vero perferendis, corrupti at quibusdam unde ad, natus numquam quo temporibus rem. Porro, aliquam, repellat. Cum!
-
+		<?php echo $feed[2]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[2]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[2]['desc']; ?>
 		</p>
 	</div><br class="clear" />
 
@@ -114,32 +104,26 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba"><img id="osoba4" src="./img/selected_person.png" alt="">
-		Ivan Iva<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[3]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[3]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[3]['desc']; ?>
 		</p>
 	</div>
 	<div hidden class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba5"src="./img/selected_person.png" alt="">
-		Ivan Ivanov<br/></a>
-		<span class="job">Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[4]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[4]['jtitle']; ?></span>
+		<p hidden class="para"> 
+			<?php echo $feed[4]['desc']; ?>
 		</p>
 	</div>
 	<div hidden class="grid_4">
 		<a  href="#"class="name" id="osoba"><img id="osoba6"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Chief Operating Officer</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[5]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[5]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[5]['desc']; ?>
 		</p>
 	</div><br class="clear" />
 
@@ -150,32 +134,26 @@
 	<div class="grid_4" >
 
 		<a href="#"class="name" id="osoba"><img id="osoba7"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[6]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[6]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[6]['desc']; ?>
 		</p>
 	</div>
 	<div hidden class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba8"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[7]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[7]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[7]['desc']; ?>
 		</p>
 	</div>
 	<div hidden class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba9" src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Chief Operating Officer</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[8]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[8]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[8]['desc']; ?>
 		</p>
 	</div><br class="clear" />
 
@@ -186,32 +164,26 @@
 	<div hidden class="grid_4" >
 
 		<a href="#"class="name" id="osoba"><img id="osoba10"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Office Manager/Marketing Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[9]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[9]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[9]['desc']; ?>	
 		</p>
 	</div>
 	<div class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba11"src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Associate</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[10]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[10]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[10]['desc']; ?>
 		</p>
 	</div>
 	<div hidden class="grid_4">
 		<a href="#"class="name" id="osoba"><img id="osoba12" src="./img/selected_person.png" alt="">
-		Ivan Ivanović<br/></a>
-		<span class="job">Chief Operating Officer</span>
-		<p hidden class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		   Praesentium, sed ad iure dignissimos! Maxime nesciunt ex id 
-		   perspiciatis ratione. Quia, beatae sint? Voluptatem, possimus
-		    delectus, necessitatibus asperiores accusamus porro voluptas.
+		<?php echo $feed[11]['name']; ?><br/></a>
+		<span class="job"><?php echo $feed[11]['jtitle']; ?></span>
+		<p hidden class="para">
+			<?php echo $feed[11]['desc']; ?>
 		</p>
 	</div><br class="clear" />
 
@@ -221,82 +193,37 @@
 
 
  <script>
-$(document).ready(function(){	
-$("div.grid_4 a").on("click", function() {
+ $(document).ready(function() {
+    $("div.grid_4 a").on("click", function(e) {
 
-		select = document.getElementById('osoba');
+        select = document.getElementById('osoba');
+    	var jobtitle = $(this).parent().children(' span').html();
+        var paragraph = $(this).parent().children(' p.para').html();
+   	    var ime = $(this).text();
+  
+        $("#holder").remove();
+        $("#paramore").remove();
 
-	  //$("#holder").slideToggle("slow","linear" );
-    // $("p").slideToggle("slow");
-   //  var img = $(this).children('a img').attr('id');
-    var jobtitle = $(this).parent().children(' span').html();
-   //var id_diva = jQuery(this).attr("id");
-    var paragraph = $(this).parent().children(' p.para').html();
-    //var str = $("p.para").text();
-    //var str= $(this).parent().children('a.name').html();
-    var ime = $(this).text();
-    //var href = $(this).attr('href');
-    //var main = $(this).parent().parent().attr("id");
-	//console.log(main); // debugging
-	//var test = $(this).children('a img').attr('id').length;
-
-  $("#holder").remove();
-            $("#paramore").remove();
-
-	//var test=$("#osoba img");
-	//console.log(test);
- //    for (var i = test - 1; i >= 0; i--) {
- //     	console.log(test);
-      // }; 	
-     
-       //var contentPanelId = jQuery(this).attr("class");
-	// var novi= e.target.nodeName;
-	
-	var target = $(event.target); 
-
-/* ============================================================================
-    nakon klika na sliku ili link, svi svi ostali članovi tima postanu prozirniji
-   ============================================================================ */
-for(i=0;i<($("#osoba img").length);i++)
-	{
-		$("#osoba img").css('opacity', '0.5');
-        if(target){
-        	target.css('opacity', '1');
-
+        // BugFix za Firefox. IE i Chrome definiraju e globalno, Firefox ne.
+        if (!e) {
+            var target = $(event.target);
         }
-	}
+/* ============================================================================
+ nakon klika na sliku ili link, svi svi ostali članovi tima postanu prozirniji
+============================================================================ */
+        for (i = 0; i < ($("#osoba img").length); i++) {
+            $("#osoba img").css('opacity', '0.5');
+            if (target) {
+                target.css('opacity', '1');
+            }
+        }
 
-		
-	
-	
-
-//console.log(target);
-//jQuery(this).find('span').removeClass('iconfa-lock').addClass('iconfa-unlock');
-//console.log(test);
-    
-
- 
- //var $a = $("<a>", { id: "h2_" + i }).text( $(el).text() );
-
-
-    $("#holder").empty()
-    $("#paramore").empty()
-
-
+        $("#holder").empty()
+        $("#paramore").empty()
         var div = $('<div class="created" id="created"></div>').text(" ");
-		var button = $('<button id="button" type="button">Close</button>');
-
-	
- 
- var mora =$(this).parent().parent().attr("id");
- var rr =('div.'+ mora);
-//console.log($("mora:selector").text(mora));
-
- //console.log(rr);
-
-//$( "span" ).prependTo( "#foo" );
-            
-
+        var button = $('<button id="button" type="button">Close</button>');
+        var mora = $(this).parent().parent().attr("id");
+        var rr = ('div.' + mora);
 
         jQuery('<div/>', {
             id: 'holder',
@@ -309,123 +236,51 @@ for(i=0;i<($("#osoba img").length);i++)
 
         $("#holder").append([div, '<br/>', ime, '<br/>', jobtitle, '<br>']);
         $("#paramore").append([paragraph, button]);
-  			
-             $("#paramore")
-             .animate({opacity:1}, 150)
-             
-             .hide()
-             .fadeIn( 600 );
 
-             $("#holder")
-             .animate({opacity:1}, 150)
-            
-             .hide()
-             .fadeIn( 600 );
-		
-        // holder.append([button,div,ime,'<br/>',jobtitle,'<br>',paragraph])
-        // console.log(novi);
-        
+        $("#paramore")
+            .animate({
+                opacity: 1
+            }, 150)
 
-        $('div.created').css("border-top", "#05345f solid 1px ");
-        //Button to close click event
-           
+        .hide()
+            .fadeIn(600);
+
+        $("#holder")
+            .animate({
+                opacity: 1
+            }, 150)
+
+        .hide()
+            .fadeIn(600);
+
+       $('div.created').css("border-top", "#05345f solid 1px ");
+
         $("#button").on("click", function() {
-
-// Ne treba jer se remove() funkcija primjenjuje
-// $("#holder")fadeOut("slow"); 
-// $("#paramore")fadeOut("slow");
-
+            // Ne treba jer se remove() funkcija primjenjuje
+            // $("#holder")fadeOut("slow"); 
+            // $("#paramore")fadeOut("slow");
             $("#holder").remove();
             $("#paramore").remove();
             $("#osoba img").css('opacity', '1');
         });
         $("#foo").trigger("click");
-   // e.preventDefault();
-    return false;
+        // e.preventDefault();
+        return false;
+    });
 });
-});
-// $("div.main1").append(main);
-
-
-
-
-//$(".created").slideToggle("slow");
-
-
-// $(".grid_4").click(function() {
-// 	var txt1 = "<p>Text.</p>";              // Create text with HTML
-//     var txt2 = $("<p></p>").text("Text.");  // Create text with jQuery
-//     var txt3 = document.createElement("p");
-//     txt3.innerHTML = "Text.";               // Create text with DOM
-//     $("body").append(txt1, txt2, txt3);  
-// });
-
-
-// function addcommentdiv () {
-//     var NewContent = '<div class="detalji">Lorem</div>'
-//     $('a').click(function () {
-//         var $this = $(this), $reply = $this.next('.reply');
-
-
-//             $(NewContent).insertAfter($this);
-
-//     });
-// };
-// addcommentdiv();
-
-
-
-// $(document).ready(function() {
-//     $("a").click(function(event) {
-//         var contentPanelId = jQuery(this).attr("id");
-//alert(contentPanelId);
-
-//     });
-// });
-
-
-// $(function(){
-//   $('.name').click(function(){
-//   $(this).text();
-//   $(this).attr('href');
-//   });
-// });
-
-
-
-
-//     $( document ).ready(function() {
-//        $(".grid_4").click(function(){
-
-//             $grid = $(this);
-// 	$content = $grid.next();
-// 	$(".new").slideToggle(500, function(){
-// 		$grid.text(function(){
-// return $content.is(":visible") ? "Collapse" : "Expand";
-// 		});
-// 	});
-//         });
-//     });
- </script>
-
-
+</script>
 
 <div class="country_help">
 <p>How can we help you? Please select an office to find 
     the appropriate phone number: <!--<select id="sel"></select>  -->
 
-
 <select id="sel" class="selector" ></select>
-
-
 
     Or alternatively:  <button class="btn">EMAIL US</button>
 </p>
 </div> <br class="clear" />
 
 <p class="territory"><span>ASIA NORTH AMERICA EUROPE<span></p>
-
-
 
 <footer>
 <ul>
@@ -444,16 +299,7 @@ for(i=0;i<($("#osoba img").length);i++)
 </ul>
 	
 </footer>
-
-
-
-
 </div><!-- /container -->
 		<script src="./js/glavni.js"></script>
-		
-	
-		 
- 
-
 </body>
 </html>

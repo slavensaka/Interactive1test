@@ -29,8 +29,8 @@ header.logo h1{
 	float:none;
 	display: block;
     margin: 1px 407px;
-   margin-top: 38px;
- 	margin-bottom: 65px;
+   margin-top: 42px;
+ 	margin-bottom: 35px;
  	overflow: hidden;
     
 }
@@ -152,12 +152,14 @@ footer ul li a:after {
    =select_country
    ========================================================================== */
 select{
-	
+	 -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
 }
 
 
 select.selector{
-
+	
 }
 
 
