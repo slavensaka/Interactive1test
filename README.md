@@ -1,9 +1,12 @@
-Riješena 3 testa izrade html, css, javascript i phpa. 
+**Solved tests.** 
+<p>Creating a html, css, javascript and php website from a design psd file.</p>
 
-Primarni pretraživač za dizajniranje html i css: Chrome Version 39.0 
-Sekundarni pretraživač: Firefox, Safari, Internet Explorer 11.
+Primary search engine: Chrome Version 39.0.<br/>
+Secondary search engines: Firefox, Safari, IE 11.
 
-BUG, TODO: IE 11 ne parsa css, grid 960, glavni menu i footer. Ostalo je uredu.  
-Chromu, Firefoxu i Safaru je sve uredu 
+TODO: IE 11 main menu and footer not parsing the correct grid of 960 px horizontally. <br>
+<p>In other browsers works fine. </p>
 
-Live site http://slaven-sakacic.from.hr/interactive/public/index.php
+<p>Live site <a href="http://slaven-sakacic.from.hr/interactive/public/index.php">
+live site</a>.</p>
+ 
