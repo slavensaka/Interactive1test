@@ -9,7 +9,7 @@ live site</a>.</p>
 <p>
 3.) Ovaj zadatak treba riješiti pomoću .net-a C# ili Php-a. U stranicu iz prva dva zadatka treba učitati članove tima iz xml datoteke "03_team.xml".
 </p>
-![](http://slaven-sakacic.from.hr/screenshots/02_test_action.jpg)
+![](http://slaven-sakacic.from.hr/interactive/interactive.png)
 
 **Solved tests.** 
 
