@@ -1,4 +1,4 @@
-<p>Live site is down for a while, will be back up <a href="http://slaven-sakacic.from.hr/interactive/public/index.php"> 
+<p>Live site: <a href="http://slaven-sakacic.from.hr/interactive/public/index.php"> 
 live site</a>.</p>
 **Test.** 
 <p>1.) U datoteci "01_test.psd" nalazi se dizajn iz kojeg treba složiti html, css i javascript prema potrebi. Html treba biti validan i treba koristiti što manje slika u prelomu. Samo prvi tab treba biti aktivan, dakle ne treba se slagati javascript za prebacivanje aktivnog taba. 
